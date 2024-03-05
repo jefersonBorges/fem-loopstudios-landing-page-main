@@ -267,7 +267,6 @@ main {
     grid-template-columns: repeat(2, 1fr);;
     grid-template-rows: repeat(2, auto);
     place-items: center;
-    
   }
   .headline-image {
     grid-column: 1 / 2;
@@ -286,7 +285,6 @@ main {
 @media screen and (max-width: 50rem) {
   .headline {
     --pddng: 0;
-    
   }
   .headline-image {
     grid-column: 1 / 3;
@@ -379,7 +377,7 @@ main {
 .card:hover {
   cursor: pointer;
 }
-.card:hover > a figure img {
+.card:hover > a figure picture {
   filter: opacity(30%);
 }
 .card:hover > a figure figcaption {
